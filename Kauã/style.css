@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+.grupo{
+    display: flex;
+    flex-direction: column;
+}   
+
+.cabeçalho {
+    background-color: blue;
+    color: azure;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+
+
+.Navegação {
+    background-color: cyan;
+    display: inline-block;
+    width: ;   
+
+.secao {
+    background-color: black;
+
+}
+
+.secao {
+    background-color: purple;
+
+}
+
+.rodape {
+    background-color: chartreuse;
+}
+
+.rodape {
+    background-color: blueviolet;
+}
