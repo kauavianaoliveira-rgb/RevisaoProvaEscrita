@@ -6,6 +6,7 @@
 .grupo{
     display: flex;
     flex-direction: column;
+
 }   
 
 .cabeçalho {
@@ -14,27 +15,46 @@
     padding: 10px;
     justify-content: space-between;
     align-items: center;
+}
 
+.menu a {
+    text-decoration:none;
+    margin-left:15px;
+}
+
+.menu a:hover {
+    color: coral;
+}
+
+
+.conteudo {
+    display: flex;
+    height: 200px;
+}
 
 .Navegação {
     background-color: cyan;
     display: inline-block;
-    width: ;   
+    width: 30%;
+    padding: 10px;   
+}
 
-.secao {
-    background-color: black;
+.Navegação ul {
+    list-style:none;
+    padding: 0;
+}
 
+.Navegacao li {
+    margin-bottom: 10px;
 }
 
 .secao {
-    background-color: purple;
+    background-color: black; 
+    color: blueviolet;
 
 }
 
 .rodape {
     background-color: chartreuse;
-}
-
-.rodape {
-    background-color: blueviolet;
+    color: cyan;
 }
