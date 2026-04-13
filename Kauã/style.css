@@ -24,29 +24,30 @@
 
 .menu a:hover {
     color: coral;
-}
-
+} 
 
 .conteudo {
     display: flex;
     height: 200px;
 }
 
-.Navegação {
+.Navegacao {
     background-color: cyan;
     display: inline-block;
     width: 30%;
-    padding: 10px;   
+    padding: 10px;
 }
 
 .Navegação ul {
     list-style:none;
     padding: 0;
+
 }
 
 .Navegacao li {
     margin-bottom: 10px;
 }
+
 
 .secao {
     background-color: black; 
@@ -56,5 +57,21 @@
 
 .rodape {
     background-color: chartreuse;
-    color: cyan;
+    height: 70px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space;
+
 }
+
+.redes {
+    display: flex;
+    align-items: center;  
+}
+
+.redes img {
+    margin-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
